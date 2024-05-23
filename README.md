@@ -8,24 +8,23 @@ To install WordleGame, simply add this line to your application's Gemfile:
 
 ```ruby
 gem 'wordle_game'
-
+```
 And then execute:
-
-bash
-
+```bash
 $ bundle install
+```
 
 Or install it yourself as:
 
-bash
-
+```bash
 $ gem install wordle_game
- 
+ ```
+
 ## Usage
  
 After installing the gem, you can start playing Wordle by requiring the gem and creating an instance of the WordleGame class.
 
-ruby
+```ruby
 
 require 'wordle_game'
 
@@ -40,7 +39,7 @@ loop do
   puts status
   break if status.include?("Answer received") || status.include?("Out of attempts")
 end
-
+```
 The submit_attempt method takes a string as input and checks it against the hidden word. It will return feedback based on the correctness of the guess.
 
 ## Contributing
