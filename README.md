@@ -20,9 +20,9 @@ Or install it yourself as:
 bash
 
 $ gem install wordle_game
-
-## Usage
-
+ 
+# Usage 
+ 
 After installing the gem, you can start playing Wordle by requiring the gem and creating an instance of the WordleGame class.
 
 ruby
