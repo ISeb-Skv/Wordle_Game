@@ -42,12 +42,15 @@ loop do
 end
 
 The submit_attempt method takes a string as input and checks it against the hidden word. It will return feedback based on the correctness of the guess.
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/SebasTheOnlyOne/wordle_game.
-##License
+
+## License
 
 The gem is available as open source under the terms of the MIT License.
-##Additional Information
+
+## Additional Information
 
 For more information, please refer to the official documentation.
