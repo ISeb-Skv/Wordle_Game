@@ -2,7 +2,7 @@ class WordleGame
   attr_reader :word_length
 
   def initialize
-    @words = ["apple", "banana", "orange", "grape", "melon"] # список слов
+    @words = ["pizza", "bread", "pasta", "salad", "sushi", "burger", "donut", "bacon", "olive", "honey"] # список слов
     @attempts = 6  # количество попыток
     @word_to_guess = @words.sample  # выбор случайного слова
     @word_length = @word_to_guess.length
