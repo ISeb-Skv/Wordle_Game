@@ -30,7 +30,6 @@ require 'wordle_game'
 
 # Create a new game
 game = WordleGame.new
-puts "Guess the word with #{game.word_length} letters"
 
 loop do
   print "Enter your guess: "
